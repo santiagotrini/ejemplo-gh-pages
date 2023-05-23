@@ -1,4 +1,42 @@
 * {
-  margin: 20px;
   font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin-left: 20px;
+  color: white;
+}
+
+nav {
+  background: black;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0 30px;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  margin: 10px;
+  flex: 200;
 }
